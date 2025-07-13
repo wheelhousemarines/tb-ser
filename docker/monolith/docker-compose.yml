@@ -2,11 +2,12 @@ services:
   postgres:
     restart: always
     image: "postgres:16"
+    container_name: vms-hub-postgres
     ports:
       - "5432"
     environment:
-      POSTGRES_DB: thingsboard
-      POSTGRES_USER: tb_user
+      POSTGRES_DB: vms-hub
+      POSTGRES_USER: ${POSTGRES_USERNAME}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
       - postgres-data:/var/lib/postgresql/data
@@ -34,9 +35,10 @@ services:
       KAFKA_CFG_SEGMENT_BYTES: "26214400"
     volumes:
       - kafka-data:/bitnami
-  tb-ce:
+  vms-hub:
     restart: always
-    image: "wheelhousemarines/vms-node:4.1.0"
+    image: "vms-hub:4.1.0"
+    container_name: vms-hub
     ports:
       - "8080:8080"
       - "7070:7070"
@@ -49,20 +51,23 @@ services:
         max-size: "100m"
         max-file: "10"
     environment:
-      TB_SERVICE_ID: tb-ce-node
-      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/thingsboard
-      SPRING_DATASOURCE_USERNAME: tb_user
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/vms-hub
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USERNAME}
       SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD}
       TB_QUEUE_TYPE: kafka
       TB_KAFKA_SERVERS: kafka:9092
     depends_on:
       - postgres
       - kafka
+    volumes:
+      - vms-hub-data:/data
 volumes:
   postgres-data:
-    name: tb-postgres-data
+    name: vms-hub-postgres-data
     driver: local
   kafka-data:
-    name: tb-ce-kafka-data
+    name: vms-hub-kafka-data
     driver: local
+  vms-hub-data:/data:
+    name: vms-hub-data
 
