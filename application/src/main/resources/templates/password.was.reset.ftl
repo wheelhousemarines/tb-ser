@@ -1,6 +1,7 @@
 <#--
 
-    Copyright © 2016-2025 The VMS Authors
+    Copyright © 2025-2025 The WHSM Authors
+    Based on Thingsboard CE
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
