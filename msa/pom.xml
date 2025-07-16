@@ -26,8 +26,8 @@
     <artifactId>msa</artifactId>
     <packaging>pom</packaging>
 
-    <name>ThingsBoard Microservices</name>
-    <url>https://thingsboard.io</url>
+    <name>WHSM Microservices</name>
+    <url>https://whsmartmaritime.com</url>
 
     <properties>
         <main.dir>${basedir}/..</main.dir>

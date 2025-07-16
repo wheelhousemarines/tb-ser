@@ -26,8 +26,8 @@
     <artifactId>transport</artifactId>
     <packaging>pom</packaging>
 
-    <name>Thingsboard Server Transport Modules</name>
-    <url>https://thingsboard.io</url>
+    <name>WHSM Server Transport Modules</name>
+    <url>https://whsmartmaritime.com</url>
 
     <properties>
         <main.dir>${basedir}/..</main.dir>

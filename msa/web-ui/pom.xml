@@ -27,8 +27,8 @@
     <artifactId>web-ui</artifactId>
     <packaging>pom</packaging>
 
-    <name>ThingsBoard Web UI Microservice</name>
-    <url>https://thingsboard.io</url>
+    <name>WHSM Web UI Microservice</name>
+    <url>https://whsmartmaritime.com</url>
     <description>Service for hosting ThingsBoard Web UI</description>
 
     <properties>

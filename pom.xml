@@ -23,9 +23,9 @@
     <version>4.1.0</version>
     <packaging>pom</packaging>
 
-    <name>Thingsboard</name>
-    <url>https://thingsboard.io</url>
-    <inceptionYear>2016</inceptionYear>
+    <name>WHSM</name>
+    <url>https://whsmartmaritime.com</url>
+    <inceptionYear>2025</inceptionYear>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -812,7 +812,7 @@
                     <configuration>
                         <header>${main.dir}/license-header-template.txt</header>
                         <properties>
-                            <owner>The Thingsboard Authors</owner>
+                            <owner>The WHSM Authors</owner>
                         </properties>
                         <excludes>
                             <exclude>**/.env</exclude>

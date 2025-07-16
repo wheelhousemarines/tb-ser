@@ -27,8 +27,8 @@
     <artifactId>edqs</artifactId>
     <packaging>pom</packaging>
 
-    <name>ThingsBoard Entity Data Query Microservice</name>
-    <url>https://thingsboard.io</url>
+    <name>WHSM Entity Data Query Microservice</name>
+    <url>https://whsmartmaritime.com</url>
     <description>ThingsBoard Entity Data Query Microservice</description>
 
     <properties>
