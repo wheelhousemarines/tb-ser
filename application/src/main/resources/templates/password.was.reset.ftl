@@ -20,7 +20,7 @@
 <head>
 <meta name="viewport" content="width=device-width" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Wheelhouse Marine VMS- Account Password Has Been Reset</title>
+<title>WHSM- Account Password Has Been Reset</title>
 
 
 <style type="text/css">
@@ -83,17 +83,17 @@ background-color: #f6f6f6;
 							<meta itemprop="name" content="Confirm Email" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;" /><table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">								
 								<tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
 									<td class="content-block" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; color: #348eda; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;" valign="top">
-										<h2>Your Wheelhouse Marine VMS account password has been reset</h2>
+										<h2>Your WHSM account password has been reset</h2>
 									</td>
 								</tr>
 								<tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
 									<td class="content-block" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;" valign="top">
-										You have successfully created new password for your Wheelhouse Marine VMS account.
+										You have successfully created new password for your WHSM account.
 									</td>
 								</tr>
 								<tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
 									<td class="content-block" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;" valign="top">
-										Now you can login to your Wheelhouse Marine VMS space using your newly created password.
+										Now you can login to your WHSM space using your newly created password.
 									</td>
 								</tr>
 								<tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
